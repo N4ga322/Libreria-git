@@ -41,7 +41,7 @@ public class PortalControlador {
         return "index.html";
     }
     //----------------------------------LIBRO---------------------------------------
-    private String Libro55;
+    
     @GetMapping("/libros")
     public String libros(ModelMap modelo) {
         List<Libro> libro = libroRepositorio.findAll();

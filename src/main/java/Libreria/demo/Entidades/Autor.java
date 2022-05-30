@@ -8,7 +8,6 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class Autor {
-    private String librasasa;
     @Id
     @GeneratedValue(generator = "uuid")
     @GenericGenerator (name = "uuid",strategy = "uuid2")
